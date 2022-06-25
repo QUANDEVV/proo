@@ -61,9 +61,9 @@ const Devices = {
 
 const Cover = styled.div`
   position: relative;
-  width: 390px;
+  width: 400px;
   overflow: hidden;
-  height: 390px;
+  height: 400px;
 
 
   @media ${Devices.Laptop} {
@@ -99,7 +99,7 @@ const Avatar = styled.span`
   overflow: hidden;
   width: 150px;
   height: 150px;
-  margin-top: -4rem;
+
 `;
 
 const Username = styled.div`
