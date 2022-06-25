@@ -61,9 +61,9 @@ const Devices = {
 
 const Cover = styled.div`
   position: relative;
-  width: 450px;
+  width: 380px;
   overflow: hidden;
-  height: 450px;
+  height: 380px;
 
 
   @media ${Devices.Laptop} {
