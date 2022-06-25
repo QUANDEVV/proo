@@ -62,7 +62,7 @@ const Home = () => {
         <div className="flex flex-row w-max overflow-x-scroll no-scrollbar select-none" ref={scrollRef}>
 
 
-        <Link  href='klo'>
+        <Link  href='klo' passHref>
 <div className="min-w-190 minlg:min-w-240 dark:bg-nft-black-3 bg-white border dark:border-nft-black-3 border-nft-gray-1 rounded-2xl flex flex-col p-2 m-4">
       <div className="my-4 flex justify-center">
         <div className="relative w-44 h-44 minlg:w-28 minlg:h-28">

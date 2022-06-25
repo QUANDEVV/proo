@@ -158,6 +158,7 @@ export default function Asset() {
         <LeftSection>
           <ImageEl>
             <Image
+            alt= ""
               src="/images/nft/bking.png"
               layout="responsive"
               width="1000px"

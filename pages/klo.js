@@ -4,6 +4,8 @@ import { Colors, Devices } from "./Theme";
 import { useTheme } from 'next-themes';
 import images from '../assets';
 import { BsHeart } from "react-icons/bs";
+import Link from 'next/link'
+
 
 
 import { BsInstagram, BsFillPatchCheckFill } from "react-icons/bs";
@@ -328,6 +330,7 @@ export default function klo({ item }) {
    
      <Cover>
        <Image
+       alt={pictures}
         src={images.vara2}
           // width="1440"
           // height="480"
@@ -339,6 +342,7 @@ export default function klo({ item }) {
       <Info>
         <Avatar>
           <Image
+          alt=""
             src={images.vara3}
             layout="fill"
             //   width="150"

@@ -63,7 +63,7 @@ export default function BidSticky() {
     <BidStickyEl>
       <LeftSection>
         <ThumbEl>
-          <Image src="/images/nft/bking.png" width="80px" height="80px" />
+          <Image  alt="" src="/images/nft/bking.png" width="80px" height="80px" />
         </ThumbEl>
         <Info>
           <EditionEl>Edition 17 of 371</EditionEl>
