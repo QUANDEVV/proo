@@ -87,8 +87,7 @@ const Navbar = () => {
 
   useEffect(() => {
     setTheme('dark');
-  }, );
-
+  }, []);
 
 
   useEffect(() => {
