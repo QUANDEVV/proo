@@ -5,10 +5,10 @@ import Image from 'next/image'
 import { useTheme } from 'next-themes';
 import NFTCard from '../components/NFTCard'
 import Link from 'next/link'
-import NFTCards from "./styled/NFTCards";
-import Grid from "./styled/Grid.styled";
+import NFTCards from "../components/styled/NFTCards";
+import Grid from "../components/styled/Grid.styled";
 import Head from "next/head";
-import Tabs from "./styled/Tabs";
+import Tabs from "../components/styled/Tabs";
 
 
 

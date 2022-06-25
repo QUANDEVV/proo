@@ -10,11 +10,11 @@ import { BsHeart } from "react-icons/bs";
 
 import { BsInstagram, BsFillPatchCheckFill } from "react-icons/bs";
 import { GrTwitter, GtTwitter } from "react-icons/gr";
-import NFTCard from "./styled/NFTCards";
-import Grid from "./styled/Grid.styled";
+import NFTCard from "../components/styled/NFTCards";
+import Grid from "../components/styled/Grid.styled";
 import Head from "next/head";
-import Tabs from "./styled/Tabs";
-import Tab from "./styled/Tab.styled";
+import Tabs from "../components/styled/Tabs";
+import Tab from "../components/styled/Tab.styled";
 // import { NFTs } from "./Info";
 
 
