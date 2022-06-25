@@ -61,9 +61,9 @@ const Devices = {
 
 const Cover = styled.div`
   position: relative;
-  width: 420px;
+  width: 390px;
   overflow: hidden;
-  height: 420px;
+  height: 410px;
 
 
   @media ${Devices.Laptop} {
@@ -376,6 +376,7 @@ export default function klo({ item }) {
           
         layout="fill"
       />
+      scroll down
     </Cover>
     <Content>
       <Info>
