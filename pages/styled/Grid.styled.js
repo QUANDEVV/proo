@@ -1,5 +1,25 @@
 import styled from "styled-components";
-import { Devices } from "../Theme";
+// import { Devices } from "../Theme";
+
+const BreakPoints = {
+  MobileS: "320px",
+  MobileM: "375px",
+  MobileL: "425px",
+  Tablet: "768px",
+  Laptop: "1024px",
+  LaptopL: "1440px",
+  Desktop: "2560px",
+};
+
+const Devices = {
+  MobileS: `(min-width: ${BreakPoints.MobileS})`,
+  MobileM: `(min-width: ${BreakPoints.MobileM})`,
+  MobileL: `(min-width: ${BreakPoints.MobileL})`,
+  Tablet: `(min-width: ${BreakPoints.Tablet})`,
+  Laptop: `(min-width: ${BreakPoints.Laptop})`,
+  LaptopL: `(min-width: ${BreakPoints.LaptopL})`,
+  Desktop: `(min-width: ${BreakPoints.Desktop})`,
+};
 
 const Grid = styled.div`
   display: grid;
@@ -15,5 +35,7 @@ const Grid = styled.div`
     grid-template-columns: repeat(3, 1fr);
   }
 `;
+
+
 
 export default Grid;

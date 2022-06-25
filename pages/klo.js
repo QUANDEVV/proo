@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Image from "next/image";
-import { Colors, Devices } from "./Theme";
+// import { Colors, Devices } from "./Theme";
 import { useTheme } from 'next-themes';
 import images from '../assets';
 import { BsHeart } from "react-icons/bs";
@@ -10,18 +10,55 @@ import { BsHeart } from "react-icons/bs";
 
 import { BsInstagram, BsFillPatchCheckFill } from "react-icons/bs";
 import { GrTwitter, GtTwitter } from "react-icons/gr";
-import NFTCard from "./styled/NFTCard.styled";
+import NFTCard from "./styled/NFTCards";
 import Grid from "./styled/Grid.styled";
 import Head from "next/head";
-import Tabs from "./styled/Tabs.styled";
+import Tabs from "./styled/Tabs";
 import Tab from "./styled/Tab.styled";
 // import { NFTs } from "./Info";
+
+
+const Colors = {
+  Primary: "#1199FA",
+  Link: "#93d2fd",
+  PrimaryDark: "#0F1C39",
+  PrimaryDisable: "#1e3f6f",
+  Background: "#0B1426",
+  White: "#FEFEFE",
+  Black: "#212121",
+  Border: "#e3e3e3",
+  Gray: "rgb(148, 155, 164)",
+  GrayBG: "#f7f9fa",
+  Gradients: { PrimaryToSec: ["#1199FA", "#10C0E9"] },
+};
+
 const ProfileEl = styled.article`
   background-color: ${Colors.White};
   color: ${Colors.Black};
   display: flex;
   flex-direction: column;
 `;
+
+const BreakPoints = {
+  MobileS: "320px",
+  MobileM: "375px",
+  MobileL: "425px",
+  Tablet: "768px",
+  Laptop: "1024px",
+  LaptopL: "1440px",
+  Desktop: "2560px",
+};
+
+const Devices = {
+  MobileS: `(min-width: ${BreakPoints.MobileS})`,
+  MobileM: `(min-width: ${BreakPoints.MobileM})`,
+  MobileL: `(min-width: ${BreakPoints.MobileL})`,
+  Tablet: `(min-width: ${BreakPoints.Tablet})`,
+  Laptop: `(min-width: ${BreakPoints.Laptop})`,
+  LaptopL: `(min-width: ${BreakPoints.LaptopL})`,
+  Desktop: `(min-width: ${BreakPoints.Desktop})`,
+};
+
 const Cover = styled.div`
   position: relative;
   width: 100%;

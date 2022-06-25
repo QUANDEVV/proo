@@ -1,7 +1,22 @@
 import styled from "styled-components";
 import Image from "next/image";
-import { Colors } from "../Theme";
+// import { Colors } from "../Theme";
 import { BsHeart } from "react-icons/bs";
+
+const Colors = {
+  Primary: "#1199FA",
+  Link: "#93d2fd",
+  PrimaryDark: "#0F1C39",
+  PrimaryDisable: "#1e3f6f",
+  Background: "#0B1426",
+  White: "#FEFEFE",
+  Black: "#212121",
+  Border: "#e3e3e3",
+  Gray: "rgb(148, 155, 164)",
+  GrayBG: "#f7f9fa",
+  Gradients: { PrimaryToSec: ["#1199FA", "#10C0E9"] },
+};
+
 
 const NFTCardEl = styled.article`
   position: relative;
@@ -105,7 +120,7 @@ const Bar2 = styled(Bar1)`
   z-index: 0;
 `;
 
-export default function NFTCard({ item }) {
+export default function NFTCards({ item }) {
   const {
     Id,
     Badge,
@@ -123,7 +138,7 @@ export default function NFTCard({ item }) {
       <Card>
         <BadgeEl>{Badge}</BadgeEl>
         <ItemImage>
-          <Image alt="pic" src={ImageUrl} width="1024" height="1025" />
+          <Image alt="" src={ImageUrl} width="1024" height="1025" />
         </ItemImage>
         <InfoSection>
           <TSection>
@@ -136,7 +151,7 @@ export default function NFTCard({ item }) {
           <PriceSection>{Price}</PriceSection>
           <BottomSection>
             <AvatarEl>
-              <Image alt="pic" src={Avatar} width="50" height="50" />
+              <Image alt="" src={Avatar} width="50" height="50" />
             </AvatarEl>
             <AuthorEl>{Author}</AuthorEl>
             <LikesEl>
