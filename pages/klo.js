@@ -61,7 +61,7 @@ const Devices = {
 
 const Cover = styled.div`
   position: relative;
-  width: 390px;
+  width: 400px;
   overflow: hidden;
   height: 410px;
 
