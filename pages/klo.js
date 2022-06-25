@@ -4,7 +4,7 @@ import { Colors, Devices } from "./Theme";
 import { useTheme } from 'next-themes';
 import images from '../assets';
 import { BsHeart } from "react-icons/bs";
-import Link from 'next/link'
+
 
 
 
@@ -330,7 +330,7 @@ export default function klo({ item }) {
    
      <Cover>
        <Image
-       alt={pictures}
+       alt=""
         src={images.vara2}
           // width="1440"
           // height="480"
