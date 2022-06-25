@@ -214,7 +214,8 @@ export default function Hero() {
         </Lines>
         <ImgContainer>
           <Img>
-            <Image layout="fill" src={CurSlide.ImageSrc} />
+            <Image alt=""
+            layout="fill" src={CurSlide.ImageSrc} />
           </Img>
         </ImgContainer>
       </Slider>

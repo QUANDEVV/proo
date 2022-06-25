@@ -89,9 +89,7 @@ const Navbar = () => {
     setTheme('dark');
   }, );
 
-  useEffect(() => {
-    checkActive(active, setActive, router);
-  }, [router.pathname]);
+
 
   useEffect(() => {
     // disable body scroll when navbar is open

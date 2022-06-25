@@ -193,7 +193,7 @@ export default function Asset() {
           </TopBtns>
           <AuthorContainer>
             <AvatarEl>
-              <Image src="/images/avatar/newk3d.png" width="50" height="50" />
+              <Image  alt="" src="/images/avatar/newk3d.png" width="50" height="50" />
             </AvatarEl>
             <span>
               <CreatorLabel>Creator</CreatorLabel>

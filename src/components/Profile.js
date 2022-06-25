@@ -140,6 +140,7 @@ export default function Profile({ username = "newk3d" }) {
       </Head>
       <Cover>
         <Image
+        alt=""
           src="/images/cover/newk3d.png"
           //   width="1440"
           //   height="480"
@@ -150,6 +151,7 @@ export default function Profile({ username = "newk3d" }) {
         <Info>
           <Avatar>
             <Image
+            alt=""
               src="/images/avatar/newk3d.png"
               layout="fill"
               //   width="150"

@@ -123,7 +123,9 @@ export default function NFTCard({ item }) {
       <Card>
         <BadgeEl>{Badge}</BadgeEl>
         <ItemImage>
-          <Image src={ImageUrl} width="1024" height="1025" />
+          <Image
+          alt=""
+          src={ImageUrl} width="1024" height="1025" />
         </ItemImage>
         <InfoSection>
           <TSection>
@@ -136,7 +138,8 @@ export default function NFTCard({ item }) {
           <PriceSection>{Price}</PriceSection>
           <BottomSection>
             <AvatarEl>
-              <Image src={Avatar} width="50" height="50" />
+              <Image
+              alt='' src={Avatar} width="50" height="50" />
             </AvatarEl>
             <AuthorEl>{Author}</AuthorEl>
             <LikesEl>

@@ -162,6 +162,7 @@ export default function Carousel() {
                 <Item>
                   <Avatar>
                     <Image
+                    alt=""
                       src="/images/avatar/ugonzo.jpg"
                       height="120"
                       width="120"
