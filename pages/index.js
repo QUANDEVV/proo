@@ -260,7 +260,7 @@ const Home = () => {
 
 <Link  href='klo' passHref>
 
-      <div className="my-10">
+      <div className="my-10 p-2">
       <div className="relative w-48 h-52 minlg:w-32 minlg:h-32">
           <Image
             src={images.puiyi }
