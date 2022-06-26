@@ -339,6 +339,19 @@ const Bar2 = styled(Bar1)`
     Author: "newk3d",
     Likes: 652,
   },
+  {
+    Id: 7,
+    Badge: "Total Sale: $82,571",
+    ImageUrl: "/images/nft/bking.png",
+    Edition: 371,
+    Stock: 128,
+    Title: "KING BITCOIN",
+    Price: "$10M",
+    Avatar: "/images/avatar/newk3d.png",
+    Author: "newk3d",
+    Likes: 1300,
+  },
+
 ];
 
 

@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { useTheme } from 'next-themes';
 import NFTCard from '../components/NFTCard'
 import Link from 'next/link'
-import NFTCards from "../components/styled/NFTCards";
+
 import Grid from "../components/styled/Grid.styled";
 import Head from "next/head";
 import Tabs from "../components/styled/Tabs";
@@ -68,7 +68,7 @@ const Home = () => {
 
 
         <Link  href='klo' passHref>
-<div className="min-w-190 minlg:min-w-240 dark:bg-nft-black-3 bg-white border dark:border-nft-black-3 border-nft-gray-1 rounded-2xl flex flex-col p-2 m-4">
+<div className='m-4' >
       <div className="my-4 flex justify-center">
         <div className="relative w-44 h-44 minlg:w-28 minlg:h-28">
           <Image
@@ -97,7 +97,7 @@ const Home = () => {
 
 
 <Link  href='klo'>
-<div className="min-w-190 minlg:min-w-240 dark:bg-nft-black-3 bg-white border dark:border-nft-black-3 border-nft-gray-1 rounded-2xl flex flex-col p-2 m-4">
+<div className="m-4">
       <div className="my-4 flex justify-center">
         <div className="relative w-44 h-44 minlg:w-28 minlg:h-28">
           <Image
@@ -124,7 +124,7 @@ const Home = () => {
 </Link>
 
 <Link  href='klo'>
-<div className="min-w-190 minlg:min-w-240 dark:bg-nft-black-3 bg-white border dark:border-nft-black-3 border-nft-gray-1 rounded-2xl flex flex-col p-2 m-4">
+<div className=" m-4">
       <div className="my-4 flex justify-center">
         <div className="relative w-44 h-44 minlg:w-28 minlg:h-28">
           <Image
@@ -152,7 +152,7 @@ const Home = () => {
 
 
 <Link  href='klo'>
-<div className="min-w-190 minlg:min-w-240 dark:bg-nft-black-3 bg-white border dark:border-nft-black-3 border-nft-gray-1 rounded-2xl flex flex-col p-2 m-4">
+<div className="m-4">
       <div className="my-4 flex justify-center">
         <div className="relative w-44 h-44 minlg:w-28 minlg:h-28">
           <Image
@@ -181,7 +181,7 @@ const Home = () => {
 
 
 <Link  href='klo'>
-<div className="min-w-190 minlg:min-w-240 dark:bg-nft-black-3 bg-white border dark:border-nft-black-3 border-nft-gray-1 rounded-2xl flex flex-col p-2 m-4">
+<div className="m-4">
       <div className="my-4 flex justify-center">
         <div className="relative w-44 h-44 minlg:w-28 minlg:h-28">
           <Image
@@ -211,7 +211,7 @@ const Home = () => {
 
 
 <Link  href='klo'>
-<div className="min-w-190 minlg:min-w-240 dark:bg-nft-black-3 bg-white border dark:border-nft-black-3 border-nft-gray-1 rounded-2xl flex flex-col p-2 m-4">
+<div className="m-4">
       <div className="my-4 flex justify-center">
         <div className="relative w-44 h-44 minlg:w-28 minlg:h-28">
           <Image
@@ -252,6 +252,68 @@ const Home = () => {
                 </div>
               </div>
             </div>
+
+<div>
+<h1 className="font-poppins dark:text-white text-nft-black-1 text-2xl minlg:text-4xl font-semibold ml-4 xs:ml-0">Top collections</h1>
+</div>
+
+
+<Link  href='klo' passHref>
+
+      <div className="my-10">
+      <div className="relative w-48 h-52 minlg:w-32 minlg:h-32">
+          <Image
+            src={images.puiyi }
+            layout="fill"
+            objectFit="cover"
+            alt="creator"
+            className="rounded-2xl"
+         
+        
+          />
+          
+          <div className="absolute w-4 h-4 minlg:w-7 minlg:h-7 bottom-0 -right-0">
+            <Image
+              src={images.tick}
+              layout="fill"
+              objectFit="contain"
+              alt="tick"
+            />
+              
+          </div>
+        </div>
+    </div>
+    
+</Link>
+
+
+
+{/* <Link  href='klo'>
+
+      <div className="my-4 ">
+        <div className="relative w-50 h-52 minlg:w-28 minlg:h-28">
+          <Image
+            src={images.madeli }
+            layout="fill"
+            objectFit="cover"
+            alt="creator"
+            className="rounded-2xl"
+        
+          />
+          
+          <div className="absolute w-4 h-4 minlg:w-7 minlg:h-7 bottom-0 -right-0">
+            <Image
+              src={images.tick}
+              layout="fill"
+              objectFit="contain"
+              alt="tick"
+            />
+              
+          </div>
+        </div>
+    </div>
+    
+</Link> */}
 
 
 
