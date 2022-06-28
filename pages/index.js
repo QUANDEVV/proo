@@ -78,6 +78,7 @@ const Home = () => {
             alt="creator"
             className="rounded-2xl"
         
+        
           />
           
           <div className="absolute w-4 h-4 minlg:w-7 minlg:h-7 bottom-0 -right-0">
